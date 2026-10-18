@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>John Rich Temporada | Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="logo">JRT.</div>
+  <nav>
+    <a href="#home">Home</a><a href="#about">About Me</a><a href="#skills">Skills</a>
+    <a href="#projects">Projects</a><a href="#achievements">Goals</a><a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="home" id="home">
+  <div class="home-text">
+    <div class="small-title">Welcome to my portfolio</div>
+    <h1>Hello, I'm<br><span>John Rich Temporada</span></h1>
+    <p>I am an ACT student who enjoys reading, learning new things, and exploring my interest in motorcycles. I am learning HTML and CSS to improve my web development skills. This website shares my personal information, interests, skills, and school projects.</p>
+    <a href="#about" class="button">About Me</a>
+    <a href="#projects" class="button button-outline">View My Projects</a>
+  </div>
+  <div class="profile">JRT</div>
+</section>
+
+<section id="about">
+  <h2 class="section-title">About Me</h2>
+  <p class="section-description">A little introduction about who I am, what I enjoy, and what I am learning as a student.</p>
+  <div class="about-box">
+    <p><strong>Full Name:</strong> John Rich Temporada</p>
+    <p><strong>Course:</strong> ACT</p>
+    <p><strong>School:</strong> Datamex College of Saint Adeline - Fairview</p>
+    <p><strong>Biography:</strong> I am a student developing my knowledge of computers and technology. I enjoy discovering new things and improving my abilities through school activities and personal projects.</p>
+    <p><strong>Hobby:</strong> Reading helps me gain knowledge, learn new ideas, and improve my imagination.</p>
+    <p><strong>Interest:</strong> I am interested in motorcycles because I appreciate their designs, styles, and technology. I hope to ride a cool motorcycle in the future.</p>
+  </div>
+</section>
+
+<section id="skills">
+  <h2 class="section-title">My Skills</h2>
+  <p class="section-description">Five skills and abilities I enjoy practicing and developing as a student.</p>
+  <div class="grid">
+    <div class="card"><div class="skill-number">01</div><h3>Reading</h3><p>Reading helps me learn new information, understand ideas, and expand my knowledge.</p></div>
+    <div class="card"><div class="skill-number">02</div><h3>Playing Games</h3><p>Playing games is fun and can help develop focus, strategy, and decision-making.</p></div>
+    <div class="card"><div class="skill-number">03</div><h3>HTML Coding</h3><p>I can create basic pages using headings, forms, lists, links, and input elements.</p></div>
+    <div class="card"><div class="skill-number">04</div><h3>Creativity</h3><p>I enjoy exploring ideas and choosing layouts, colors, and designs for school projects.</p></div>
+    <div class="card"><div class="skill-number">05</div><h3>Problem-Solving</h3><p>I practice finding mistakes in my code and correcting them while learning.</p></div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2 class="section-title">My Projects</h2>
+  <p class="section-description">These are three HTML projects I created while learning web development. Click a button to view the code or try the output.</p>
+  <div class="grid">
+    <div class="card">
+      <div class="project-preview">Registration Form</div>
+      <h3>01. Registration Form</h3>
+      <p>A form that collects details such as user ID, password, name, address, country, ZIP code, email, sex, language, and an About message.</p>
+      <p><strong>What I learned:</strong> HTML forms, text and password inputs, dropdowns, radio buttons, checkboxes, text areas, and submit buttons.</p>
+      <span class="project-tag">HTML</span><span class="project-tag">Forms</span><br>
+      <button class="button" onclick="openProject('registration')">View Code &amp; Output</button>
+    </div>
+    <div class="card">
+      <div class="project-preview">Dark Login Form</div>
+      <h3>02. Login Form</h3>
+      <p>A login page with username and password fields, a dark background, a centered box, purple buttons, rounded corners, and hover effects.</p>
+      <p><strong>What I learned:</strong> How CSS controls colors, spacing, borders, alignment, input fields, and hover effects.</p>
+      <span class="project-tag">HTML</span><span class="project-tag">CSS</span><br>
+      <button class="button" onclick="openProject('login')">View Code &amp; Output</button>
+    </div>
+    <div class="card">
+      <div class="project-preview">Favorite Fruits</div>
+      <h3>03. Favorite Fruits List</h3>
+      <p>A webpage showing apples, mangoes, bananas, and grapes in both an ordered list and an unordered list.</p>
+      <p><strong>What I learned:</strong> Headings and the HTML list tags &lt;ol&gt;, &lt;ul&gt;, and &lt;li&gt;.</p>
+      <span class="project-tag">HTML</span><span class="project-tag">Lists</span><br>
+      <button class="button" onclick="openProject('fruits')">View Code &amp; Output</button>
+    </div>
+  </div>
+</section>
+
+<section class="goals" id="achievements">
+  <h2 class="section-title">Achievements &amp; Future Goals</h2>
+  <p class="section-description">Every project is an opportunity to learn something new.</p>
+  <div class="grid">
+    <div class="card"><h3>My Achievements</h3><p>I have created HTML projects including a registration form, a login form, and a webpage displaying lists of fruits.</p></div>
+    <div class="card"><h3>My Future Goals</h3><p>I want to improve my HTML and CSS skills, learn more programming languages, and build useful, creative websites.</p></div>
+    <div class="card"><h3>My Motivation</h3><p>Patience, practice, and curiosity motivate me to keep learning and challenge myself with more advanced projects.</p></div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2 class="section-title">Contact Me</h2>
+  <p class="section-description">Thank you for visiting my personal portfolio. Add contact details you are comfortable sharing.</p>
+  <div class="contact-card">
+    <h3>John Rich Temporada</h3>
+    <p>ACT Student | Beginner Web Developer</p>
+    <p>School: Datamex College of Saint Adeline - Fairview</p>
+    <p>Email: Add your email address here</p>
+    <p>Social Media: Add your profile links here</p>
+    <a href="#home" class="button">Back to Top</a>
+  </div>
+</section>
+<footer><p>&copy; 2026 John Rich Temporada. Personal Portfolio Website.</p><p>Designed with HTML and CSS.</p></footer>
+
+<div class="modal" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" onclick="closeIfBackdrop(event)">
+  <div class="modal-box">
+    <div class="modal-top"><h2 id="modalTitle">Project Details</h2><button class="close-btn" onclick="closeProject()" aria-label="Close">✕</button></div>
+    <p class="modal-desc" id="modalDescription"></p>
+    <div class="tabs">
+      <button class="tab active" id="codeTab" onclick="showPanel('code')">View Code</button>
+      <button class="tab" id="outputTab" onclick="showPanel('output')">View Output</button>
+    </div>
+    <div class="panel active" id="codePanel">
+      <textarea class="code-area" id="projectCode" readonly spellcheck="false" aria-label="Project source code"></textarea>
+      <button class="button" onclick="copyProjectCode()">Copy Code</button>
+      <span id="copyMessage" class="output-note"></span>
+    </div>
+    <div class="panel" id="outputPanel">
+      <iframe class="output-frame" id="projectOutput" title="Live project output" sandbox="allow-forms"></iframe>
+      <p class="output-note">This is a live preview of the selected project. The sample forms are for demonstration and do not save or send your information.</p>
+    </div>
+  </div>
+</div>
+
+<script src="script.js" defer></script>
+</body>
+</html>
